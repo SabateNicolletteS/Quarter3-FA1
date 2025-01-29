@@ -1,3 +1,9 @@
+var nickname, heightInInches, weightInKg;
+
+nickname = prompt("Enter your nickname:");
+heightInInches = parseInt(prompt("Enter your height in inches:"));
+weightInKg = parseFloat(prompt("Enter your weight in kg:"));
+
 if (isNaN(heightInInches) || isNaN(weightInKg)) {
     console.log("Invalid input. Please enter numeric values for height and weight.");
 } else {
